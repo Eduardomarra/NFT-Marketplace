@@ -11,12 +11,11 @@
     justify-content: space-between;
     max-width: 123rem;
     margin: 0 auto;
-    padding: 2.4rem 0;
+    padding: 2.4rem 0.5rem;
 }
 .logo-header {
     width: 4rem;
     height: 4rem;
-
 }
 .logo-header img {
     width: 100%;
@@ -68,6 +67,7 @@
     transition: all 0.5s;
 }
 .wrapper-mobile{
+    display: none;
     cursor: pointer;
     width: 4rem;
     height: 3rem;
@@ -123,10 +123,9 @@
 }
 button.btn-account, button.btn-wallet {
     font-size: 1.4rem;
-    color: var(--white);
-    font-weight: 500;
-    margin: 0 0.5rem 0 2rem;
-    height: 3rem;
+}
+button.btn-account {
+    margin: 0 3rem;
 }
 button.btn-wallet{
     display: flex;
