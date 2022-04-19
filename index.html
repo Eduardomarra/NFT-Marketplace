@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="wrapper">
+        <div class="container">
+            <div class="logo-header">
+                <img src="./src/assets/logo.svg" alt="">
+            </div>
+            <div class="search-header">
+                <div>
+                    <button><img src="./src/assets/search.svg" alt=""></button>
+                    <input 
+                        type="text" 
+                        name="search" 
+                        id="search" 
+                        placeholder="Search items, collections, and acounts"
+                        autocomplete="off"
+                    >
+                </div>
+            </div>
+            <div class="wrapper-mobile">
+                <div class="mobile"></div>
+            </div>
+            <nav class="navigation">
+                <ul class="menu-header">
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Activity</a></li>
+                    <li><a href="#">Resources</a></li>
+                </ul>
+                <div class="btn-header">
+                    <button type="submit" class="btn-border-gradient btn-account">Account</button>
+                    <button type="submit" class="btn-bg-gradient btn-wallet">
+                        <img src="./src/assets/wallet-one.svg" alt="">
+                        Connect Wallet
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="main">
+        <div class="circle"></div>
+        <div class="square"></div>
+    </section>
+
+    <script src="./src/js/script.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+:root {
+    --primary: rgba(31, 29, 43, 0.12);
+    --primary-opacity: #e7e5eb2d;
+    --white: #fff;
+    --gradient: linear-gradient(90.71deg, #73E0A9 0%, #5B68DF 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(47, 49, 66);
+    height: 200vh;
+    position: relative;
+}
+button {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-border-gradient {
+    border-radius: 100rem;
+    padding: 1rem;
+    font-size: 1rem;
+    padding: .5rem 3rem;
+    color: var(--white);
+    box-shadow: 0 0 6px 0 var(--primary);
+    border: solid 1px transparent;
+    background-image: linear-gradient(rgba(31, 29, 43, 0.12), rgba(31, 29, 43, 0.12)), var(--gradient);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px rgba(31, 29, 43,0.85) inset;
+}
+.btn-bg-gradient {
+    background: var(--gradient); 
+    border-radius: 5rem;
+    padding: 0.5rem 2rem;
+}

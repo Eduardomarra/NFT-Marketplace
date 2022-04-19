@@ -1,0 +1,103 @@
+@media (max-width: 900px) {
+    /*HEADER*/
+    .logo-header {
+       margin: 0 0.5rem;
+    }
+    .search-header{
+        max-width: 25rem;
+    }
+    .navigation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    /*END HEADER*/
+}
+
+@media (max-width: 600px) {
+    /*HEADER*/
+    .container {
+        position: relative;
+        transition: all 1s;
+    }
+    .search-header {
+        max-width: 22rem;
+    }
+    .search-header div {
+        padding: 0.8rem;
+    }
+    .search-header input{ 
+        width: 22rem;
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+    } 
+        /* menu mobile */
+        .mobile { 
+            display: block;
+            margin-right: 0.5rem;
+        }
+        .mobile.active {
+            display: block;
+            margin-right: 0.5rem;
+            transform: rotate(45deg);
+            
+        }
+        .mobile.active::after {
+            transform: rotate(90deg);
+            bottom: 0;
+        }
+        .mobile.active::before {
+            transform: rotate(-90deg);
+            top: 0px;
+        }
+        .navigation {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            position: absolute;
+            top: 8.5rem;
+            left: 0;
+            right: 0;
+            background: var(--primary);
+            height: calc(100vh - 85px);
+            clip-path: polygon(0 0, 0% 0%, 0% 0%, 0% 0%, 0 0%);
+        }
+        .navigation.active {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            position: absolute;
+            top: 8.5rem;
+            left: 0;
+            right: 0;
+            background: var(--primary);
+            height: calc(100vh - 85px);
+            clip-path: polygon(0 0, 100% 0%, 100% 100%, 50% 100%, 0 100%);
+            animation: openMobile 0.5s;
+        }
+        .menu-header {
+            flex-direction: column;
+        }
+        .menu-header li{
+            padding: 2rem 0;
+        }
+        .btn-header {
+            flex-direction: column;
+        }
+        button.btn-account, button.btn-wallet {
+            margin: 2rem 0 ;
+        }
+        /* end menu mobile */
+
+@keyframes openMobile {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+    /*END HEADER*/
+}

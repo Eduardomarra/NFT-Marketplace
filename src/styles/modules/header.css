@@ -1,0 +1,138 @@
+.wrapper {
+    position: fixed;
+    background: var(--primary);
+    backdrop-filter: blur(45px);
+    -webkit-backdrop-filter: blur(45px);
+    width: 100%;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 123rem;
+    margin: 0 auto;
+    padding: 2.4rem 0;
+}
+.logo-header {
+    width: 4rem;
+    height: 4rem;
+
+}
+.logo-header img {
+    width: 100%;
+    height: 100%;
+}
+.search-header { 
+    max-width: 38rem;
+    padding: 0.1rem;
+    border: double 1px transparent;
+    background-image: linear-gradient(#2D2F3F, #2D2F3F), var(--gradient);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 5rem;
+} 
+.search-header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.search-header button{ 
+    width: 2rem;
+    height: 2rem;
+} 
+.search-header button img{ 
+    width: 100%;
+    height: 100%;
+}
+.search-header input{ 
+    width: 25rem;
+    border: 0;
+    background: transparent;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    outline: none;
+    margin-left: 1rem;
+} 
+.search-header input::placeholder{ 
+    color: #fff;
+} 
+.search-header input:focus::placeholder{ 
+    opacity: 0;
+} 
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.5s;
+}
+.wrapper-mobile{
+    cursor: pointer;
+    width: 4rem;
+    height: 3rem;
+    margin-right: 0.5rem;
+}
+.mobile {
+    display: none;
+    width: 4rem;
+    height: 0.4rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+    position: relative;
+    bottom: -50%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.mobile:after, .mobile:before {
+    content: '';
+    display: block;
+    width: 4rem;
+    height: 0.4rem;
+    background: var(--white);
+    position: absolute;
+    border-radius: 1rem;
+}
+.mobile::after {
+    bottom: -1rem;
+    transition: all 0.5s;
+}
+.mobile::before {
+    top: -1rem;
+    transition: all 0.5s;
+}
+
+.menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-header li {
+    margin: 0 0.5rem;
+}
+.menu-header li a{
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 0.5rem ;
+}
+.btn-header {
+    display: flex;
+    align-items: center;
+}
+button.btn-account, button.btn-wallet {
+    font-size: 1.4rem;
+    color: var(--white);
+    font-weight: 500;
+    margin: 0 0.5rem 0 2rem;
+    height: 3rem;
+}
+button.btn-wallet{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+button.btn-wallet img{
+    margin-right: 1rem;
+}
