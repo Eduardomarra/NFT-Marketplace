@@ -4,7 +4,20 @@
     backdrop-filter: blur(45px);
     -webkit-backdrop-filter: blur(45px);
     width: 100%;
+    opacity: 0;
+    animation: showHeader 0.5s forwards;
 }
+@keyframes showHeader {
+    from {
+        opacity: 0;
+        transform: translateY(-20rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -114,8 +127,12 @@
     font-size: 1.4rem;
     line-height: 1.6rem;
     font-weight: 500;
-    color: #fff;
+    color: var(--white);
     padding: 0.5rem ;
+    transition: color 0.3s;
+}
+.menu-header li a:hover{
+    color: var(--green-dark);
 }
 .btn-header {
     display: flex;
@@ -123,6 +140,10 @@
 }
 button.btn-account, button.btn-wallet {
     font-size: 1.4rem;
+    transition: filter 0.3s;
+}
+button.btn-account:hover, button.btn-wallet:hover {
+    filter: brightness(0.8);
 }
 button.btn-account {
     margin: 0 3rem;

@@ -17,6 +17,7 @@
     .container {
         position: relative;
         transition: all 1s;
+        z-index: 99;
     }
     .search-header {
         max-width: 18rem;

@@ -5,6 +5,9 @@
     .main.active {
         display: none;
     }
+    .callNFT {
+        margin-top: 20rem;
+    }
     .callNFT span{
         font-size: 2rem;
         line-height: 2.5rem;
@@ -22,7 +25,14 @@
         padding: 1rem 2rem;
         font-size: 2rem;
     }
-
+    .play img {
+        width: 3rem;
+        height: 3rem;
+    }
+    .play span {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
     .circle {
         width: 60rem;
         height: 90rem;
@@ -35,8 +45,15 @@
 
 
 @media (max-width: 600px) {
+    .main {
+        height: calc(100vh - 88px);
+        margin-top: 10rem;
+    }
     .main.active {
         display: none;
+    }
+    .callNFT {
+        margin-top: 12rem;
     }
     .callNFT span{
         font-size: 1rem;
@@ -54,7 +71,9 @@
         padding: 0.5rem 1rem;
         font-size: 1.2rem;
     }
-
+    .play {
+        margin-top: 5rem;
+    }
     .circle {
         width: 30rem;
         height: 60rem;

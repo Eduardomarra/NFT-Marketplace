@@ -10,14 +10,19 @@ section {
     padding: 0 0.5rem;
     position: relative;
 }
-
+.callNFT {
+    transform: translateX(-500rem);
+    animation: showNFT 0.5s forwards;
+    margin-top: 10rem;
+}
 .callNFT span{
     font-style: normal;
     font-weight: 700;
     font-size: 1.4rem;
     line-height: 2rem;
     color: var(--white);
-    opacity: 0.5;
+    opacity: 0;
+    animation: showSpanNFT 1s 0.2s forwards;
 }
 .callNFT h1 {
     font-style: normal;
@@ -26,18 +31,46 @@ section {
     line-height: 5.2rem;
     color: var(--white);
     margin: 2rem 0 6rem 0;
+    opacity: 0;
+    animation: showH1NFT 1s 0.3s forwards
 }
-
 .btn {
     display: flex;
     align-items: center;
     gap: 3rem;
+    opacity: 0;
+    animation: showBtnNFT 1s 0.4s forwards
 }
 .btn .btn-nft {
     width: 20rem;
     padding: 1rem 2rem;
+    transition: filter 0.5s;
 }
-
+.btn .btn-nft:hover {
+    filter: brightness(0.8);
+}
+.play {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10rem;
+    opacity: 0;
+    animation: showPlayNFT 1s 0.5s forwards
+}
+.play img {
+   cursor: pointer;
+}
+.play img:hover {
+    transform: scale(1.1);
+}
+.play span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: var(--white);
+    margin-left: 2rem;
+}
 .circle {
     position: absolute;
     right: 0;
@@ -48,6 +81,8 @@ section {
     border-radius: 50rem;
     background: var(--green-dark);
     z-index: -3;
+    transform: scale(0);
+    animation: showCircle 1s 1s forwards;
 }
 .square {
     position: absolute;
@@ -63,20 +98,72 @@ section {
     right:0;
     top: -5rem;
     z-index: -1;
-}
-.play {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-top: 10rem;
-}
-.play span{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.4rem;
-    line-height: 2rem;
-    color: var(--white);
-    margin-left: 2rem;
+    animation: showImg 1s 1.5s ease-out forwards;
+    opacity: 0;
 }
 
-
+/*ANIMATION*/
+@keyframes showNFT {
+    from {
+        opacity: 0;
+        transform: translateX(-50rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0rem);
+    }    
+}
+@keyframes showSpanNFT {
+    from {
+        opacity: 0;
+       
+    }
+    to {
+        opacity: 0.5;
+    }   
+}
+@keyframes showH1NFT {
+    from {
+        opacity: 0;
+       
+    }
+    to {
+        opacity: 1;
+    }  
+}
+@keyframes showBtnNFT {
+    from {
+        opacity: 0;
+       
+    }
+    to {
+        opacity: 1;
+    }  
+}
+@keyframes showPlayNFT {
+    from {
+        opacity: 0;
+       
+    }
+    to {
+        opacity: 1;
+    }  
+}
+@keyframes showCircle {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes showImg {
+    from {
+        opacity: 0;
+        transform: translateY(-50rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0rem);
+    }    
+}
