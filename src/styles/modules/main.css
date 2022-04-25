@@ -46,6 +46,9 @@ section {
     padding: 1rem 2rem;
     transition: filter 0.5s;
 }
+.btn .btn-nft a{
+    color: var(--white)
+}
 .btn .btn-nft:hover {
     filter: brightness(0.8);
 }
