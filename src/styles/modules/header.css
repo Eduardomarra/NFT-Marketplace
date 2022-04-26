@@ -6,6 +6,7 @@
     width: 100%;
     opacity: 0;
     animation: showHeader 0.5s forwards;
+    z-index: 99;
 }
 @keyframes showHeader {
     from {

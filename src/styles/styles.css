@@ -1,9 +1,11 @@
 @import './modules/global.css';
 @import './modules/header.css';
 @import './modules/main.css';
+@import './modules/hidden-gems.css';
 
 
 
 /*RESPONSIVIDADE*/
 @import './responsive/header.css';
 @import './responsive/main.css';
+@import './responsive/hidden-gems.css';

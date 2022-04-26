@@ -1,0 +1,33 @@
+@media  (max-width: 1024px) {
+    .section-hidden-gems {
+        margin-top: 5rem;
+    }
+    .cards {
+        gap: 1rem;
+    }
+}
+
+@media  (max-width: 900px) {
+    .cards {
+        gap: 1rem;
+        justify-content: space-between;
+    }
+}
+
+@media  (max-width: 600px) {
+    .section-hidden-gems {
+        margin-top: 5rem;
+    }
+    .title-hidden h1 {
+        margin: 3rem 0;
+    }
+    .title-hidden h1 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    .cards {
+        gap: 1rem;
+        height: 100vh;
+        margin: 1rem 0;
+    }
+}

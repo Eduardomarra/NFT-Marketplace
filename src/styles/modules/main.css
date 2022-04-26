@@ -1,12 +1,12 @@
-section {
+.section-main {
     height: 100vh;
-    width: 100vw;
+    max-width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 .main{
-    max-width: 123rem;
+    width: 123rem;
     padding: 0 0.5rem;
     position: relative;
 }
@@ -86,11 +86,10 @@ section {
     z-index: -3;
     transform: scale(0);
     animation: showCircle 1s 1s forwards;
+    overflow: hidden;
 }
 .square {
     position: absolute;
-    width: 100vw;
-    height: 100vh;
     inset: 0;
     background: rgba(31, 29, 43, 0.1);
     backdrop-filter: blur(50px);
