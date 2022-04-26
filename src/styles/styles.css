@@ -2,6 +2,7 @@
 @import './modules/header.css';
 @import './modules/main.css';
 @import './modules/hidden-gems.css';
+@import './modules/collection.css';
 
 
 
@@ -9,3 +10,4 @@
 @import './responsive/header.css';
 @import './responsive/main.css';
 @import './responsive/hidden-gems.css';
+@import './responsive/collection.css';

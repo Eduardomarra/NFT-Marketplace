@@ -1,0 +1,106 @@
+.section-collection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    transition: all 0.5s;
+    margin: 5rem 0;
+    position: relative;
+}
+.section-collection.active {
+   opacity: 0;
+}
+.container-collection {
+    width: 123rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+.container-collection .title-collection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.container-collection .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 3rem 0;
+}
+.container-collection .card {
+    border-radius: 3.6rem;
+    margin-bottom: 2rem;
+}
+.container-collection .image-collection img{
+    border-radius: 35px 35px 0 0;
+    margin-bottom: -0.5rem;
+}
+.container-collection .description-collection {
+    margin: 0px 1.5rem 1.5rem 1.5rem;
+    background: #252836;
+    border-radius: 0px 0px 35px 35px;
+}
+.description-collection .profile-collection {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem 1.5rem;
+    border-bottom: 1px solid var(--green-dark);
+}
+.description-collection .profile {
+    margin-left: 1rem;
+}
+.description-collection .profile h3 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--white);
+}
+.description-collection .profile h4 {
+    font-weight: 350;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: var(--white);
+}
+.description-collection .profile h4 img{
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.5rem;
+}
+.description-collection .price {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+    text-align: left;
+}
+.description-collection .price span {
+    font-weight: 350;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: var(--white);
+}
+.description-collection .price h3 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: var(--white);
+}
+.circle.collection {
+    position: absolute;
+    left: -2rem;
+    top: 1rem;
+    width: 90rem;
+    height: 90rem;
+    border: 0;
+    border-radius: 50rem;
+    background: var(--green-dark);
+    z-index: -3;
+    transform: scale(0);
+    animation: showCircle 1s 1s forwards;
+    overflow: hidden;
+}

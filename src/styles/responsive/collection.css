@@ -1,0 +1,27 @@
+@media  (max-width: 1024px) {
+    .section-collection {
+        margin-top: 5rem;
+    }
+}
+
+@media  (max-width: 900px) {
+   
+}
+
+@media  (max-width: 600px) {
+    .section-collection {
+        margin-top: 85rem;
+    }
+    .title-collection h1 {
+        margin: 3rem 0;
+    }
+    .title-collection h1 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    .container-collection .cards {
+        gap: 1rem;
+        height: 100vh;
+        margin: 1rem 0;
+    }
+}
