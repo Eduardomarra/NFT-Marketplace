@@ -1,0 +1,77 @@
+footer {
+    position: absolute;
+    bottom: -26rem;
+    right: 0;
+    left: 0;
+    background: var(--primary);
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
+    z-index: 2;
+    transition: all 1s;
+}
+footer.active {
+    opacity: 0;
+}
+.container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 123rem;
+    margin: 4rem auto;
+    padding: 0 1rem;
+}
+.the-fund img{
+    width: 7rem;
+    height: 7rem;
+}
+.the-fund h4{
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    text-transform: uppercase;
+    color: var(--white);
+    margin: 2rem 0;
+}
+.the-fund p{
+    font-weight: 350;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    text-align: justify;
+    color: var(--white);
+    max-width: 30rem;
+}
+.list-footer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 4rem;
+}
+.list-footer h4, .list-footer li{
+    margin-bottom: 1rem;
+}
+.list-footer li {
+    font-weight: 350;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: var(--white);
+}
+.social-footer h4{
+    margin: 2rem 0;
+}
+.bd-radius {
+    border-radius: 5px;
+}
+.social-icons {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+.social-icons a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.5rem;
+    height: 4.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+}

@@ -5,6 +5,7 @@ export default function menuMobile() {
     const hiddenGems = document.querySelector(".section-hidden-gems")
     const collection = document.querySelector(".section-collection")
     const create = document.querySelector(".section-create")
+    const footer = document.querySelector("footer")
 
     wrapperMobile.addEventListener("click", () => {
         wrapperMobile.classList.toggle('active')
@@ -13,6 +14,7 @@ export default function menuMobile() {
         hiddenGems.classList.toggle('active')
         collection.classList.toggle('active')
         create.classList.toggle('active')
+        footer.classList.toggle('active')
     })
 
 }

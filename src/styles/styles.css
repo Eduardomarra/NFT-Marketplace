@@ -4,6 +4,8 @@
 @import './modules/hidden-gems.css';
 @import './modules/collection.css';
 @import './modules/create.css';
+@import './modules/discover.css';
+@import './modules/footer.css';
 
 
 
@@ -13,3 +15,5 @@
 @import './responsive/hidden-gems.css';
 @import './responsive/collection.css';
 @import './responsive/create.css';
+@import './responsive/discover.css';
+@import './responsive/footer.css';

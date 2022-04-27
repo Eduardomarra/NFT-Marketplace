@@ -1,0 +1,35 @@
+@media  (max-width: 1024px) {
+    
+}
+
+@media  (max-width: 900px) {
+    .the-fund img{
+        width: 6rem;
+        height: 6rem;
+    }
+    .the-fund p{
+        max-width: 20rem;
+    }
+    .list-footer {
+        gap: 1rem;
+    }
+}
+
+@media  (max-width: 600px) {
+    footer {
+        bottom: -65rem;
+    }
+    .container-footer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .list-footer li {
+        width: 6.5rem;
+    }
+    .the-fund p{
+        margin-bottom: 1.5rem;
+    }
+    .the-fund, .list-footer {
+        border-bottom: 1px solid var(--green-dark);
+    }
+}
