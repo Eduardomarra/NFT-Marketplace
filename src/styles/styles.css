@@ -3,6 +3,7 @@
 @import './modules/main.css';
 @import './modules/hidden-gems.css';
 @import './modules/collection.css';
+@import './modules/create.css';
 
 
 
@@ -11,3 +12,4 @@
 @import './responsive/main.css';
 @import './responsive/hidden-gems.css';
 @import './responsive/collection.css';
+@import './responsive/create.css';

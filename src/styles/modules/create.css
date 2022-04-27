@@ -1,0 +1,54 @@
+.section-create {
+    position: relative;
+    backdrop-filter: blur(100px);
+    transition: all 0.3s;
+}
+.section-create.active {
+    opacity: 0;
+}
+.container-create {
+    max-width: 123rem;
+    margin: 0 auto;
+    padding: 5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.instruction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 10rem;
+}
+.instruction .instruction-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 25rem;
+}
+.instruction-item img {
+    max-width: 6.4rem;
+    max-height: 6.4rem;
+}
+.instruction-item h4 {
+    font-weight: 700;
+    font-size: clamp(1.1rem, 1vw, 1.6rem);
+    line-height: clamp(1.4rem, 1vw, 2.2rem);
+    color: var(--white);
+    margin: 1rem 0;
+}
+.instruction-item p{
+    font-weight:350;
+    font-size: clamp(1rem, 1vw, 1.4rem);
+    line-height: clamp(1.2rem, 1vw, 1.8rem);
+    text-align: justify;
+    color: var(--white);
+}
+.instruction-item p span {
+    font-weight:350;
+    font-size: clamp(1rem, 1vw, 1.4rem);
+    line-height: clamp(1.2rem, 1vw, 1.8rem);
+}

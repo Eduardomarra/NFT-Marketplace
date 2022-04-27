@@ -64,7 +64,7 @@
             top: 8.5rem;
             left: 0;
             right: 0;
-            background: var( --green-dark);
+            background: var(--primary);
             height: calc(100vh - 85px);
             clip-path: polygon(0 0, 0% 0%, 0% 0%, 0% 0%, 0 0%);
         }
@@ -76,10 +76,10 @@
             top: 8.5rem;
             left: 0;
             right: 0;
-            background: var( --green-dark);
+            background: var(--gradient-reverse);
             height: calc(100vh - 85px);
             clip-path: polygon(0 0, 100% 0%, 100% 100%, 50% 100%, 0 100%);
-            animation: openMobile 0.2s;
+            animation: openMobile 0.3s;
         }
         .menu-header {
             flex-direction: column;

@@ -1,0 +1,23 @@
+@media  (max-width: 1024px) {
+    
+}
+
+@media  (max-width: 900px) {
+    
+}
+
+@media  (max-width: 600px) {
+    .section-create {
+        margin-top: 275rem;
+    }
+    .section-create .title {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    .instruction {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       align-items: center;
+       margin-top: 5rem;
+    }
+}
