@@ -1,0 +1,41 @@
+@media  (max-width: 1024px) {
+    
+}
+
+@media  (max-width: 900px) {
+    .container-discover .video {
+        width: 60rem;
+        height: 30rem;
+    }
+    .section-discover .circle-discover {
+        bottom: -5rem;
+        right: 10rem;
+        width: 20rem;
+        height: 20rem;
+    }
+    .section-discover .circle-two-discover {
+        top: 5rem;
+        left: 1rem;
+        width: 30rem;
+        height: 30rem;
+    }
+}
+
+@media  (max-width: 600px) {
+    .container-discover .video {
+        width: 29rem;
+        height: 15rem;
+    }
+    .section-discover .circle-discover {
+        bottom: -5rem;
+        right: 0rem;
+        width: 20rem;
+        height: 20rem;
+    }
+    .section-discover .circle-two-discover {
+        top: 5rem;
+        left: 0;
+        width: 30rem;
+        height: 30rem;
+    }
+}

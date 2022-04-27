@@ -1,0 +1,70 @@
+.section-discover {
+    position: relative;
+    transition: all 0.3s;
+    z-index: 1;
+}
+.section-discover.active {
+    opacity: 0;
+}
+.container-discover {
+    max-width: 123rem;
+    margin: 10rem auto;
+    padding: 5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+.container-discover h3 {
+    margin: 1rem 0 3rem 0;
+}
+.container-discover .video {
+    width: 99rem;
+    height: 48rem;
+}
+.container-discover button {
+    margin-top: 5rem;
+    padding: 1.5rem 3rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
+.section-discover .circle-discover {
+    position: absolute;
+    bottom: -5rem;
+    right: 20rem;
+    background-color: var(--green);
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+    z-index: -5;
+}
+.section-discover .circle-two-discover {
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+    background-color: var(--violet);
+    width: 80rem;
+    height: 60rem;
+    border-radius: 50%;
+    z-index: -5;
+}
+.square-discover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--primary);
+    z-index: -3;
+    backdrop-filter: blur(200px);
+}
