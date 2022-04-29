@@ -14,9 +14,9 @@
 
 ---
 
-<a href="https://20-portfolio.vercel.app/" target="_blank">Versão online</a>
+<a href="https://nft-marketplace-emarra.vercel.app/" target="_blank">Versão online</a>
 
-Layout retirado da Cominidade do Figma [Figma](https://www.figma.com/file/72UK6TyIJZwzrFnIdR6mEU/NFT-Marketplace---Free-UI-Kit-Landing-Page-(Community)?node-id=0%3A1).
+Layout retirado da Cominidade do [Figma](https://www.figma.com/file/72UK6TyIJZwzrFnIdR6mEU/NFT-Marketplace---Free-UI-Kit-Landing-Page-(Community)?node-id=0%3A1).
 
 ## 🚀 Tecnologias
 
