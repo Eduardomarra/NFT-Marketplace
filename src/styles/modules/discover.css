@@ -29,15 +29,6 @@
     font-size: 2rem;
     line-height: 2.5rem;
 }
-
-
-
-
-
-
-
-
-
 .section-discover .circle-discover {
     position: absolute;
     bottom: -5rem;
@@ -47,6 +38,7 @@
     height: 40rem;
     border-radius: 50%;
     z-index: -5;
+    filter: blur(200px);
 }
 .section-discover .circle-two-discover {
     position: absolute;
@@ -57,6 +49,7 @@
     height: 60rem;
     border-radius: 50%;
     z-index: -5;
+    filter: blur(200px);
 }
 .square-discover {
     position: absolute;

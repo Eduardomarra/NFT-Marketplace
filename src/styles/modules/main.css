@@ -87,6 +87,7 @@
     transform: scale(0);
     animation: showCircle 1s 1s forwards;
     overflow: hidden;
+    filter: blur(200px);
 }
 .square {
     position: absolute;

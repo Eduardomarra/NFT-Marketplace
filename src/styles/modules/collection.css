@@ -105,6 +105,7 @@
     z-index: -3;
     transform: scale(0);
     overflow: hidden;
+    filter: blur(200px);
 }
 .circle-two.collection {
     position: absolute;
@@ -117,4 +118,5 @@
     background: var(--violet);
     z-index: -4;
     overflow: hidden;
+    filter: blur(200px);
 }
