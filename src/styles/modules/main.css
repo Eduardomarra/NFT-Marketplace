@@ -98,6 +98,7 @@
     right: 0;
     background: rgba(31, 29, 43, 0.1);
     backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
     z-index: -2;
 }
 .image-main {

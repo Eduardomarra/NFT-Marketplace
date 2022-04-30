@@ -60,4 +60,5 @@
     background-color: var(--primary);
     z-index: -3;
     backdrop-filter: blur(200px);
+    -webkit-backdrop-filter: blur(200px);
 }
